@@ -1,0 +1,16 @@
+{
+  "name": "org-tigre-bot",
+  "version": "1.0.0",
+  "description": "Bot de Filas e Tickets - ORG TIGRE Free Fire",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
