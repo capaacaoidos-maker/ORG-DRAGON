@@ -34,10 +34,10 @@ function saveQueues()  { fs.writeFileSync('./queues.json',  JSON.stringify(queue
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────
 const QUEUE_MODES = {
-  '1x1': { label: '1x1', maxPlayers: 2, emoji: '⚔️' },
-  '2x2': { label: '2x2', maxPlayers: 4, emoji: '🔥' },
-  '3x3': { label: '3x3', maxPlayers: 6, emoji: '💥' },
-  '4x4': { label: '4x4', maxPlayers: 8, emoji: '🏆' },
+  '1x1': { label: '1x1', maxPlayers: 2, emoji: '🐅' },
+  '2x2': { label: '2x2', maxPlayers: 4, emoji: '🐅' },
+  '3x3': { label: '3x3', maxPlayers: 6, emoji: '🐅' },
+  '4x4': { label: '4x4', maxPlayers: 8, emoji: '🐅' },
 };
 
 const PRICES = [300.00, 200.00, 100.00, 80.00, 75.00, 50.00, 30.00, 20.00, 10.00, 5.00, 2.00, 1.00, 0.75, 0.50, 0.30];
